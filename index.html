@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -20,7 +22,7 @@
     </style>
 </head>
 
-<body>
+<body bgcolor="black">
 
     <nav class="navbar background h-nav-resp">
         <ul class="nav-list v-class-resp">
@@ -58,6 +60,7 @@
                     utilize my knowledge of various databases for the growth of the
                     organization.</p>
                 <br>
+
                 <div class="buttons">
                     <button class="btn1">REAL MADRID</button>
                     <button class="btn2">LIVERPOOL</button>
@@ -73,11 +76,13 @@
 
     <a name="professional"></a>
     <section class="section background">
-        <div class="paras">
+        <div class="paras" data-aos="fade-left">
 
             <p class="sectionTag">SKILLS AND TOOLS</p><br>
             <p class="sectionSubTag">
             <ul class="achieve">
+                <li>DBMS</li><br>
+                <li>MySQL</li><br>
                 <li>HTML</li><br>
                 <li>CSS</li><br>
                 <li>OOPS</li><br>
@@ -86,15 +91,15 @@
             </ul>
             </p>
         </div>
-        <div class="thumbnail">
-            <img src="img\background-image.jpg" alt="Image" class="fluid">
+        <div class="thumbnail" data-aos="fade-left">
+            <img src="img\skillsandtools.jpg" alt="Image" class="fluid">
         </div>
     </section>
 
 
 
     <section class="section background secLeft">
-        <div class="paras1">
+        <div class="paras1" data-aos="fade-right">
             <p class="sectionTag">PROGRAMMING <br>LANGUAGES</p><br>
             <p class="sectionSubTag">
             <ul class="achieve">
@@ -104,15 +109,15 @@
             </ul>
             </p>
         </div>
-        <div class="thumbnail1">
-            <img src="img\background-image.jpg" alt="Image" class="fluid">
+        <div class="thumbnail1" data-aos="fade-right">
+            <img src="img\programminglanguages.jpg" alt="Image" class="fluid">
         </div>
     </section>
 
 
 
     <section class="section background">
-        <div class="paras1">
+        <div class="paras1" data-aos="fade-left">
             <p class="sectionTag">ACHIEVEMENTS</p><br>
             <p class="sectionSubTag">
             <ul class="achieve">
@@ -124,28 +129,37 @@
             </ul>
             </p>
         </div>
-        <div class="thumbnail1">
-            <img src="img\background-image.jpg" alt="Image" class="fluid">
+        <div class="thumbnail1" data-aos="fade-left">
+            <img src="img\achievements.png" alt="Image" class="fluid">
         </div>
     </section>
 
     <a name="education"></a>
     <section class="sectionWork background-solid">
         <div class="parasWork">
-            <p class="title">WORK AND EDUCATION</p><br>
+            <p class="title" data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-once="false">WORK AND EDUCATION</p><br>
             <hr><br>
 
-            Accenture Solutions Private Limited<br>
-            <p class="subTitle">- Associate Software Engineer <br><br>
+            <p data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">Accenture Solutions Private Limited</p><br>
+            <p class="subTitle" data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">- Associate Software Engineer <br><br>
                 <hr><br>
-                SRM IST, SRM University<br>
-            <p class="subTitle">- B.Tech in Information Technology</p><br>
+            <p data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">SRM IST, SRM University</p><br>
+            <p class="subTitle" data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">- B.Tech in Information Technology</p><br>
             <hr><br>
-            Father Agnel School, Noida<br>
-            <p class="subTitle">- 12th<br><br>
+            <p data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">Father Agnel School, Noida</p><br>
+            <p class="subTitle" data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">- 12th<br><br>
                 <hr><br>
-                Father Agnel School, Noida<br>
-            <p class="subTitle">- 10th</p><br><br>
+            <p data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">Father Agnel School, Noida</p><br>
+            <p class="subTitle" data-aos="fade" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-once="false">- 10th</p><br><br>
 
             </p>
         </div>
@@ -155,7 +169,8 @@
 
     <a name="projects"></a>
     <section class="sectionProject background-black">
-        <div class="parasProject">
+        <div class="parasProject" data-aos="fade-left" data-aos-offset="200" data-aos-delay="5" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-once="false">
             <p class="titleProject">PROJECTS</p><br>
             <hr><br>
 
@@ -187,6 +202,8 @@
                     </ul>
                 </div>
 
+
+
                 <div class="footer-col">
                     <h4>Follow Me</h4>
                     <div class="social-links">
@@ -198,14 +215,31 @@
                     </div>
                 </div>
 
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="contactme"> B-1804, Apex The Florus,
+                        Vasundhara Sector - 18,
+                        Ghaziabad, Uttar Pradesh -
+                        201012
+                        <br><br>
+                        harshvikas54@gmail.com
+                        <br>
+                        +91-9811227748
+                    </div>
+                </div>
+
             </div>
-        </div>
     </footer>
 
 
 
+    <!-- Animate on scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-    
+
     <!-- burger collapse Javascript -->
     <script src="JS/resp.js"></script>
 
