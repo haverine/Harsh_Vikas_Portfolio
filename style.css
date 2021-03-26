@@ -240,9 +240,8 @@
 }
 .parasProject hr{
     max-width: 60%;
-    margin-left: 350px;
+    margin-left: 360px;
 }
-
 
 
 
@@ -466,6 +465,19 @@
         margin-left: 50px;
         text-align: center;
         width: 100%;
+    }
+    #skillst{
+        margin-bottom: 95px;
+    }
+    .parasProject hr{
+        max-width: 71%;
+        margin-left: 81px;
+    }
+    .subTitle{
+        max-width: 91%;
+    }
+    .parasProject{
+        padding: 0 40px;
     }
 }
 
